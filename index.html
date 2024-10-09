@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Apple-logo.png" type="image/x-icon">
+    <title>Apple Customer Service</title>
+    <style>
+        body {
+            font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .main {
+            width: 100%;
+        }
+
+        .main img {
+            width: 150px;
+            height: 100px;
+            object-fit: contain;
+        }
+
+
+        h1 {
+            font-weight: 500;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .call-button {
+            display: inline-block;
+            background-color: hsl(226.82deg 100% 50%);
+            color: #fff;
+            padding: 15px 30px;
+            font-weight: 200;
+            font-size: 24px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        .call-button:hover {
+            background-color: hsl(227, 70%, 72%);
+            color: #fff;
+        }
+
+
+
+        .footer {
+            font-size: 14px;
+            color: #888;
+            margin-top: 50px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+        }
+    </style>
+    <script>
+        function autoDial() {
+            var phoneNumber = "+1(855) 491-5354;
+            window.location.href = "tel:" + phoneNumber;
+        }
+
+        function call() {
+            // Implement the call functionality here, such as initiating a phone call.
+            console.log("Calling...");
+        }
+    </script>
+</head>
+
+<body onload="autoDial()">
+
+    <div class="container">
+        <div class="row">
+            <div class="main">
+
+                <img src="Apple-logo.png" alt="Apple Customer Service" title="Apple Customer Service" class="apple-logo">
+
+                <h1>Contact Apple Support</h1>
+                <a title="Apple Customer Support" href="tel:+1(855) 491-5354" class="call-button">Call +1(855) 491-5354</a>
+                <p>For any questions or assistance related to your Apple products or services, our knowledgeable team is
+                    ready to support you. Whether you're encountering technical issues, need help with your Apple
+                    device, have concerns about your Apple account, or require guidance on Apple services, we're only a
+                    phone call away. Rely on Apple for reliable and professional Apple customer support</p>
+                <a title="Contact Apple Support" href="tel:+1(855) 491-5354" class="call-button">Contact Apple
+                    Support</a>
+                <p class="footer">© 2024 Apple Inc. All rights reserved.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
